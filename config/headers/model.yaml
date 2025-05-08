@@ -1,5 +1,6 @@
-epoch: 50
-test_epoch: 5
+# 训练设置
+epoch: 100
+test_epoch: 10
 
 parallel_part:
   - emb_func

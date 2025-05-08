@@ -1,8 +1,9 @@
+# 模型设置
 backbone:
   name: Conv64F
   kwargs:
-    is_flatten: False
-    is_feature: False
+    is_flatten: False # 是否返回 flatten 特征
+    is_feature: False # 是否返回 backbone 中每个 block 的输出
     leaky_relu: False
     negative_slope: 0.2
     last_pool: False

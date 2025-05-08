@@ -1,8 +1,9 @@
+# 数据设置
 data_root: /home/nju-student/mkh/datasets/FSL_Dataset/miniImageNet--ravi
 image_size: 84
-use_memory: False
-augment: True
-augment_times: 1
-augment_times_query: 1
+use_memory: False # 是否使用内存加速读取
+augment: True # 是否使用数据增强
+augment_times: 1  # support set 的增强次数
+augment_times_query: 1  # query set 的增强次数
 workers: 8 # number of workers for dataloader in all threads
 dataloader_num: 1

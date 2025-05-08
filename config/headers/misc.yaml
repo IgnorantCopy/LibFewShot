@@ -1,3 +1,4 @@
+# 杂项设置
 # log settings
 log_name: ~ # if not ~: use for log file's name
 log_level: info

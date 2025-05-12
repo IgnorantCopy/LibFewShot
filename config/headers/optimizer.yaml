@@ -1,0 +1,27 @@
+# optimizer info
+optimizer:
+  name: Adam
+  kwargs:
+    lr: 0.01
+  other: ~
+    # emb_func: 0.001 # define lr OR
+    # another_part:    # define multi params
+    #   lr: 0.1
+    #   weight_decay: 0.5
+
+
+# lr_scheduler info
+lr_scheduler:
+  name: StepLR
+  kwargs:
+    gamma: 0.1
+    step_size: 20
+
+#lr_scheduler:
+#  name: ReduceLROnPlateau
+#  kwargs:
+#    mode: min
+#    factor: 0.1
+#    patience: 5
+
+warmup: 0 # set 0 to turn off warmup

@@ -10,7 +10,7 @@ from core.config import Config
 from core import Test
 
 
-PATH = "./results/DN4-miniImageNet--ravi-Conv64F-5-1-May-07-2025-20-07-08"
+PATH = "./results/ProtoNet-miniImageNet--ravi-resnet12-5-1-May-12-2025-13-57-10"
 VAR_DICT = {
     "test_epoch": 5,
     "device_ids": "0",

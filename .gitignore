@@ -135,4 +135,5 @@ dmypy.json
 .idea/
 .vscode/
 results/
-MetaDiff/
+MetaDiff/datasets
+MetaDiff/experiments

@@ -12,7 +12,7 @@ batch_size: 128
 classifier:
   kwargs: null
   name: ProtoNet
-data_root: /home/nju-student/mkh/datasets/FSL_Dataset/miniImageNet--ravi
+data_root: /root/autodl-tmp/datasets/FSL_Dataset/miniImageNet--ravi
 deterministic: true
 device_ids: 0
 episode_size: 1

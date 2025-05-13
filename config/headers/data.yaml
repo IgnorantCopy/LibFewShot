@@ -1,5 +1,5 @@
 # 数据设置
-data_root: /home/nju-student/mkh/datasets/FSL_Dataset/miniImageNet--ravi
+data_root: /root/autodl-tmp/datasets/FSL_Dataset/miniImageNet--ravi
 image_size: 84
 use_memory: False # 是否使用内存加速读取
 augment: True # 是否使用数据增强
